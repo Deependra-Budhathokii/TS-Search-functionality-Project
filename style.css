@@ -1,0 +1,65 @@
+*{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+     }
+
+
+    .search-input{
+        text-align: center;
+        padding: 1rem;
+
+        & #form input[type="text"] {
+            /* Styles for all text input fields within the form */
+            padding: 8px 12px;
+            border: 2px solid #007BFF;
+            border-radius: 4px;
+            font-size: 16px;
+       
+        }
+
+
+        & #form button {
+    padding: 10px 20px;  /* Adjust padding for better ergonomics */
+    background-color: #4CAF50;  /* A nice shade of green */
+    color: white;  /* White text to contrast the background */
+    border: none;  /* No border for a cleaner look */
+    border-radius: 4px;  /* Rounded corners */
+    cursor: pointer;  /* Cursor changes to a pointer to indicate clickability */
+    font-size: 16px;  /* Slightly larger font for readability */
+    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+#form button:hover {
+    background-color: #45a049;  /* Darker shade of green on hover for feedback */
+}
+
+        
+    }
+
+  .card > img{
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+  }   
+
+  .card-footer > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .card{
+    background-image: linear-gradient(to right top, #291eaa, #0037a5, #004397, #004a83, #124e6d);
+
+    margin-top: 1rem;
+  }
+
+  .empty{
+    text-align: center;
+    color: #e27d3e;
+    font-size: 1rem;
+    font-weight: bold;
+  }
